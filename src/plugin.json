@@ -1,0 +1,24 @@
+{
+  "type": "panel",
+  "name": "xc-table",
+  "id": "xc-table",
+
+  "info": {
+    "author": {
+      "name": "zhangucan",
+      "url": "https://github.com/zhangucan"
+},
+    "logos": {
+      "small": "img/icn-table-panel.svg",
+      "large": "img/icn-table-panel.svg"
+    },
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Vertamedia/chtable"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}
+
