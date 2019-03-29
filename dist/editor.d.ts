@@ -2,6 +2,7 @@
 export declare class TablePanelEditorCtrl {
     private $q;
     private uiSegmentSrv;
+    static templateUrl: string;
     panel: any;
     panelCtrl: any;
     transformers: any;

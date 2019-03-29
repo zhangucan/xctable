@@ -8,7 +8,7 @@ System.register(['lodash', 'app/core/utils/kbn'], function(exports_1) {
         return {
             restrict: 'E',
             scope: true,
-            templateUrl: 'column_options.html',
+            templateUrl: 'public/plugins/xctable/column_options.html',
             controller: ColumnOptionsCtrl,
         };
     }

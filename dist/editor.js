@@ -8,7 +8,7 @@ System.register(['lodash', './transformers'], function(exports_1) {
         return {
             restrict: 'E',
             scope: true,
-            templateUrl: 'editor.html',
+            templateUrl: 'public/plugins/xctable/editor.html',
             controller: TablePanelEditorCtrl,
         };
     }
@@ -87,6 +87,7 @@ System.register(['lodash', './transformers'], function(exports_1) {
                     this.panel.columns = lodash_1.default.without(this.panel.columns, column);
                     this.panelCtrl.render();
                 };
+                TablePanelEditorCtrl.templateUrl = 'editor.html';
                 return TablePanelEditorCtrl;
             })();
             exports_1("TablePanelEditorCtrl", TablePanelEditorCtrl);

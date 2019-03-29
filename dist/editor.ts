@@ -4,6 +4,8 @@ import _ from 'lodash';
 import {transformers} from './transformers';
 
 export class TablePanelEditorCtrl {
+  static templateUrl = 'editor.html';
+
   panel: any;
   panelCtrl: any;
   transformers: any;
@@ -92,7 +94,7 @@ export function tablePanelEditor($q, uiSegmentSrv) {
   return {
     restrict: 'E',
     scope: true,
-    templateUrl: 'editor.html',
+    templateUrl: 'public/plugins/xctable/editor.html',
     controller: TablePanelEditorCtrl,
   };
 }

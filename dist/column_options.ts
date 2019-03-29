@@ -122,7 +122,7 @@ export function columnOptionsTab($q, uiSegmentSrv) {
   return {
     restrict: 'E',
     scope: true,
-    templateUrl: 'column_options.html',
+    templateUrl: 'public/plugins/xctable/column_options.html',
     controller: ColumnOptionsCtrl,
   };
 }
