@@ -122,7 +122,7 @@ export function columnOptionsTab($q, uiSegmentSrv) {
   return {
     restrict: 'E',
     scope: true,
-    templateUrl: 'public/plugins/vertamedia-chtable/column_options.html',
+    templateUrl: 'column_options.html',
     controller: ColumnOptionsCtrl,
   };
 }

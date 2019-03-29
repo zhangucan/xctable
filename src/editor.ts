@@ -92,7 +92,7 @@ export function tablePanelEditor($q, uiSegmentSrv) {
   return {
     restrict: 'E',
     scope: true,
-    templateUrl: 'public/plugins/vertamedia-chtable/editor.html',
+    templateUrl: 'editor.html',
     controller: TablePanelEditorCtrl,
   };
 }
